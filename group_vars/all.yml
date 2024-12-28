@@ -1,0 +1,3 @@
+ansible_user: vagrant
+postgresql_db_master_group_name: db_master
+postgresql_db_replicas_group_name: db_replicas

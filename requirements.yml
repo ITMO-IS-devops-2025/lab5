@@ -1,0 +1,2 @@
+- name: postgresql
+  src: https://github.com/ITMO-IS-devops-2025/ansible-role-postgresql

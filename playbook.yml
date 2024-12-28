@@ -1,0 +1,17 @@
+- name: Install and configure postgresql on db master
+  hosts: db_master
+  become: true
+
+  tasks:
+    - name: Include postgresql role
+      ansible.builtin.include_role:
+        name: postgresql
+
+- name: Install and configure postgresql on db replicas
+  hosts: db_replicas
+  become: true
+
+  tasks:
+    - name: Include postgresql role
+      ansible.builtin.include_role:
+        name: postgresql

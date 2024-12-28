@@ -1,0 +1,7 @@
+db_master:
+    hosts:
+        192.168.56.201:
+
+db_replicas:
+    hosts:
+        192.168.56.202:

@@ -1,0 +1,11 @@
+postgresql_data_directory: /tmp/postgresql-data
+postgresql_databases:
+  - first_db
+  - second_db
+postgresql_users:
+  - first_user
+  - second_user
+  - third_user
+postgresql_db_user_owners_dict:
+  first_db: first_user
+  second_db: third_user
